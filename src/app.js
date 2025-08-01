@@ -21,7 +21,7 @@ const arrValue = (arr) => {
 }
 console.log(arrValue(who))
 
-const excuseGenerator = (arrOne, arrTwo, arrThree, arrFour) => {
+const excuseGenerator = () => {
     return arrValue(who) + arrValue(action) + arrValue(what) + arrValue(when) 
 }
 console.log(excuseGenerator())
